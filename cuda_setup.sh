@@ -18,7 +18,10 @@ echo "📋 Updating package lists..."
 sudo apt-get update
 
 echo "🛠️ Installing CUDA Toolkit 12.8..."
-sudo apt-get -y install cuda-toolkit-12-8
+sudo apt-get -y install cuda-toolkit-12-8 
+
+echo "📦 Installing additional CUDA packages..."
+sudo apt-get install -y nvidia-cuda-toolkit
 
 echo "🖥️ Installing CUDA Drivers..."
 sudo apt-get -y install cuda-drivers
