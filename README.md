@@ -15,8 +15,8 @@ This repository contains scripts and instructions for setting up NVIDIA CUDA dri
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/puget_ubuntu_setup.git
-   cd puget_ubuntu_setup
+   git clone https://github.com/phreck/cuda_ubuntu_setup.git
+   cd cuda_ubuntu_setup
    ```
 
 2. Make the script executable:
